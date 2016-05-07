@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rengwuxian.materialedittext.MaterialEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:hint="请描述一下您的情况。"
+    android:minHeight="500dp"
+    android:paddingBottom="24dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textSize="14sp"
+    app:met_floatingLabelAlwaysShown="true"
+    app:met_floatingLabelAnimating="true"
+    app:met_floatingLabelText="谢谢您的认真填写"
+    app:met_hideUnderline="true">
+
+</com.rengwuxian.materialedittext.MaterialEditText>

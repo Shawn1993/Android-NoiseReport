@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">噪声投诉</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Titles -->
+    <string name="title_fragment_complain_list">投诉</string>
+    <string name="title_fragment_noise_meter">噪声仪</string>
+    <string name="title_activity_complain">投诉</string>
+
+    <!-- Dialog Titles-->
+    <string name="dialog_title_tips">提示</string>
+    <string name="dialog_title_error">错误</string>
+
+    <!-- Dialog Message-->
+    <string name="dialog_msg_complain_exit">是否确定放弃本次编辑？</string>
+    <string name="dialog_msg_complain_error">对不起，服务器发生错误</string>
+
+    <!-- Dialog Button-->
+    <string name="dialog_btn_sure">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+
+
+</resources>

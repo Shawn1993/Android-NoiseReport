@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_noise_complain"
+            android:title="投诉" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_noise_meter"
+            android:title="噪声仪" />
+    </group>
+</menu>

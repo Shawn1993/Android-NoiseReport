@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="noise_zone_lists">
+        <item>教学区</item>
+        <item>住宅区</item>
+        <item>商业区</item>
+        <item>工业区</item>
+    </string-array>
+
+    <string-array name="noise_type_lists">
+        <item>交通噪声</item>
+        <item>工业噪声</item>
+        <item>建筑工地噪声</item>
+    </string-array>
+
+</resources>

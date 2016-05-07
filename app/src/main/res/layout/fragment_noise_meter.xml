@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/noise_background"
+    android:paddingTop="30dp"
+    tools:context="com.noiselab.noisecomplain.fragment.MainActivityNoiseMeterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.noiselab.noisecomplain.widget.NoiseMeterView
+            android:id="@+id/noise_meter_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/noise_meter_dark_300dp" />
+
+        <com.noiselab.noisecomplain.widget.NoiseGraphView
+            android:id="@+id/noise_graph_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

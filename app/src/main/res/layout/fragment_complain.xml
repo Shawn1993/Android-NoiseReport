@@ -1,0 +1,73 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.noiselab.noisecomplain.fragment.ComplainActivityFragment"
+    tools:showIn="@layout/activity_complain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <com.noiselab.noisecomplain.widget.ComplainCardView
+            android:id="@+id/map_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:head_image_src="@drawable/ic_add_location_black_24dp"
+            app:subtitle_default_num="2"
+            app:subtitle_hidden="true"
+            app:title_text="所在位置" />
+
+        <com.noiselab.noisecomplain.widget.ComplainCardView
+            android:id="@+id/noise_meter_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:head_image_src="@drawable/ic_mic_black_24dp"
+            app:subtitle_hidden="true"
+            app:title_text="噪声分贝" />
+
+        <com.noiselab.noisecomplain.widget.ComplainCardView
+            android:id="@+id/noise_zone_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:head_image_src="@drawable/ic_pin_drop_black_24dp"
+            app:subtitle_hidden="true"
+            app:title_text="噪声地域" />
+
+        <com.noiselab.noisecomplain.widget.ComplainCardView
+            android:id="@+id/noise_type_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            app:head_image_src="@drawable/ic_hearing_black_24dp"
+            app:subtitle_hidden="true"
+            app:title_text="噪声类型" />
+
+        <com.noiselab.noisecomplain.widget.ComplainCardView
+            android:id="@+id/noise_comment_item"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            app:foot_view="@layout/complain_cardview_footview"
+            app:head_image_src="@drawable/ic_mode_edit_black_24dp"
+            app:subtitle_hidden="true"
+            app:title_text="描述" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/complain_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
